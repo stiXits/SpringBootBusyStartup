@@ -1,0 +1,9 @@
+spring:
+  jmx.enabled: false
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "admin"
+    password: "foobar"
+
+  cloud.stream.bindings.input.group: foobar
